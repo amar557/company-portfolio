@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lufga Regular"),
+    url("./lufga-webfont/LufgaRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lufga Italic"),
+    url("./lufga-webfont/LufgaItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lufga Thin"), url("./lufga-webfont/LufgaThin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 100;
+  src: local("Lufga Thin Italic"),
+    url("./lufga-webfont/LufgaThinItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Lufga ExtraLight"),
+    url("./lufga-webfont/LufgaExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 200;
+  src: local("Lufga ExtraLight Italic"),
+    url("./lufga-webfont/LufgaExtraLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lufga Light"),
+    url("./lufga-webfont/LufgaLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Lufga Light Italic"),
+    url("./lufga-webfont/LufgaLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Lufga Medium"),
+    url("./lufga-webfont/LufgaMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Lufga Medium Italic"),
+    url("./lufga-webfont/LufgaMediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Lufga SemiBold"),
+    url("./lufga-webfont/LufgaSemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Lufga SemiBold Italic"),
+    url("./lufga-webfont/LufgaSemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lufga Bold"), url("./lufga-webfont/LufgaBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lufga Bold Italic"),
+    url("./lufga-webfont/LufgaBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Lufga ExtraBold"),
+    url("./lufga-webfont/LufgaExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Lufga ExtraBold Italic"),
+    url("./lufga-webfont/LufgaExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lufga Black"),
+    url("./lufga-webfont/LufgaBlack.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lufga";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Lufga Black Italic"),
+    url("./lufga-webfont/LufgaBlackItalic.woff") format("woff");
+}
+.group:hover .filter-white {
+  filter: invert(100%) brightness(17);
+}
+.active {
+  color: #4f45e2;
+}
