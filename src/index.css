@@ -149,3 +149,6 @@
 .active {
   color: #4f45e2;
 }
+#root {
+  overflow: hidden;
+}
