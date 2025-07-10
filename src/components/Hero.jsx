@@ -5,7 +5,7 @@ import FollowUs from "./FollowUs";
 
 function Hero() {
   return (
-    <div className="flex md:flex-row flex-col gap-5 md:gap-0 items-start md:items-center justify-between w-11/12 sm:w-10/12 mx-auto md:h-[590px]">
+    <div className="flex md:flex-row flex-col gap-5 md:gap-0 items-start sm:my-0 my-10 md:items-center justify-between w-11/12 sm:w-10/12 mx-auto md:h-[590px]">
       <div className="flex flex-col items-start">
         <p className="flex items-center text-lg font-normal gap-2">
           {" "}

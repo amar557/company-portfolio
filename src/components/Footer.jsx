@@ -42,7 +42,7 @@ function Footer() {
   return (
     <div className="bg-primary text-white">
       <div className="w-10/12 mx-auto flex lg:gap-0 gap-4 items-start justify-between flex-wrap py-10">
-        <div className="lg:w-1/5 md:w-[30%] sm:w-[48%] w-full space-y-2">
+        <div className="lg:w-1/5 md:w-[30%] sm:w-[48%] w-full space-y-2 ps-5">
           <img src={footerLogo} alt="" />
           <p className="">Empowering Your Digital Future</p>
           <div className="text-xl text-white flex items-center">
