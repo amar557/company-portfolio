@@ -44,7 +44,7 @@ function Questions() {
   };
   return (
     <div>
-      <img src={wavetop} alt="" />
+      <img src={wavetop} alt="" className="object-cover w-full" />
       <div className="bg-[#F4F7FF] ">
         <div className="bg-[#F4F7FF] flex items-start md:gap-0 gap-4 justify-between md:flex-row flex-col w-11/12 sm:w-10/12 mx-auto">
           <div className="w-full md:w-2/5 gap-3 space-y-3">
@@ -85,7 +85,7 @@ function Questions() {
           </div>
         </div>
       </div>
-      <img src={wavebottom} alt="" />
+      <img src={wavebottom} alt="" className="object-cover w-full" />
     </div>
   );
 }
