@@ -50,7 +50,7 @@ useEffect(() => {
     xmd:static fixed 
     top-0 right-0 z-40
     transition-all duration-300 ease-in-out
-    xmd:bg-transparent bg-orange-600 
+    xmd:bg-transparent bg-white 
     xmd:flex-row flex-col 
     xmd:py-0 py-10`}
 >
